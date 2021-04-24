@@ -1,0 +1,107 @@
+.Forms-div{
+    text-align: center; 
+}
+
+.Forms-label{
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: right;
+    display: inline-block;
+}
+
+.baddata{
+    color:red;
+}
+
+.Forms-input-text{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+.Forms-button{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+}
+
+.Forms-h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Forms-alert-label{
+    color: firebrick;
+    padding: 5x;
+    font-size: 20px;
+}
+
+.Forms-hr{
+    margin: 0px;
+}
+
+label{
+    margin-left:20px;
+}
+
+.Forms-table{
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+}
+
+.Forms-select{
+    border: 0;
+    width: 100%;
+    /* background-color: #a4cef0; */
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: normal;
+    text-align: -internal-center;
+}
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /* background-color: #a4cef0;  */
+} 
+.Forms-tbody1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /* background-color: #a4cef0; */
+}
+.Forms-tbody1 select{
+    border: 0;
+    width: 100%;
+    /* background-color: #a4cef0; */
+}
+.Forms-tbody2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /* background-color: #e97060; */
+}
+.Forms-tbody2 select{
+    border: 0;
+    width: 100%;
+    /* background-color: #e97060; */
+}
+.Forms-tbody3{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /* background-color: #609191; */
+}
+.Forms-tbody3 select{
+    border: 0;
+    width: 100%;
+    /* background-color: #609191; */
+}

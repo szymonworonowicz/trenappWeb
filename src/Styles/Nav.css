@@ -1,0 +1,24 @@
+.Nav-hr{
+    margin: 0px;
+}
+.Nav-button{
+    padding: 15px 10px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: black;
+}
+
+.Nav-class{
+    text-align: center;
+}
+
+.Nav-authorization
+{
+    float: right;
+}

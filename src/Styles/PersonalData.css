@@ -1,0 +1,43 @@
+#form > *{
+    display: block;
+}
+
+.PersonalData-label{
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 300px;
+    text-align: right;
+    display: inline-block;
+    color: white;
+}
+.PersonalData-p{
+    margin-right: 300px;
+}
+.PersonalData-select{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 250px;
+    text-align-last: center;
+}
+
+.PersonalData-input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 238px; /* -12 w porownaniu do select */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
